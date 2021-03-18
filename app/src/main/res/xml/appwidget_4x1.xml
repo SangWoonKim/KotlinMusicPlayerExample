@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android:initialLayout 위에서 만들어둔 appwidget.xml 입니다.-->
+<!-- android:minHeight 최소 높이 -->
+<!-- android:minWidth 최대 높이 -->
+
+<appwidget-provider
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/appwidget"
+    android:minHeight="40dp"
+    android:minWidth="294dp"/>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:background="@android:color/darker_gray"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/img_noti_album"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/abc_vector_test" />
+
+    <TextView
+        android:id="@+id/tv_noti_title"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:text="Sample Title"
+        android:textColor="@android:color/black" />
+
+    <ImageButton
+        android:id="@+id/btn_noti_rewind1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@null"
+        android:src="@drawable/rewind" />
+
+    <ImageButton
+        android:id="@+id/btn_noti_play2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@null"
+        android:clickable="true"
+        android:src="@drawable/play" />
+
+    <ImageButton
+        android:id="@+id/btn_noti_forward3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@null"
+        android:src="@drawable/forward" />
+
+    <ImageButton
+        android:id="@+id/btn_noti_close4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@null"
+        android:src="@drawable/close" />
+</LinearLayout>
